@@ -25,7 +25,7 @@ public class ArrayDemo8 {
             }
 
         }
-        System.out.println("有效值的个数"+sum);
+        System.out.println( "有效值的个数"+sum);
 
         //创建一个稀疏数组array2
         int[][] array2 = new int[sum+1][3];
