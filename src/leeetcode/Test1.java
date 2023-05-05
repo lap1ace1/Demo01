@@ -4,7 +4,7 @@ import java.lang.annotation.Target;
 import java.util.Arrays;
 
 public class Test1 {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
             int [] nums = new int[]{2,7,11,15,23};
             int target = 9;
             System.out.println(Arrays.toString(twoSum(nums,target)));
