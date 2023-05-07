@@ -9,7 +9,7 @@ public class test13 {
         System.out.println(luoma(s));
     }
         public static int luoma(String s){
-            Map<Character,Integer> symbolValues = new HashMap<Character,Integer>(){{
+            Map<Character,Integer> map = new HashMap<Character,Integer>(){{
                 put('I',1);
                 put('V',5);
                 put('X',10);
@@ -18,15 +18,15 @@ public class test13 {
                 put('D',500);
                 put('M',1000);
             }};
-            int res = 0;
+            int j = 0;
             for (int i = 0; i < s.length(); i++) {
-                int Values = symbolValues.get(s.charAt(i));
-                if (i+1<s.length()&&Values<symbolValues.get(s.charAt(i+1))){
-                    res = res - Values;
+                int v = map.get(s.charAt(i));
+                if (i+1<s.length()&&v<map.get(s.charAt(i+1))){
+                    j = j - v;
                 }else {
-                    res = res+ Values;
+                    j = j+ v;
                 }
-            }return res;
+            }return j;
 
         }
     }
