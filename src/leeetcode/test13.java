@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class test13 {
     public static void main(String[] args) {
-        String s  = "MCMXCIVI";
+        String s  = "MCMXCIV";
         System.out.println(luoma(s));
     }
         public static int luoma(String s){
