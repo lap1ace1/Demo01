@@ -11,7 +11,7 @@ public class leetcode14 {
             return "";
         }
         String str = strs[0];
-        for (int i = 1; i < strs.length ; i++) {
+        for (int i = 1; i < strs.length ; i++ ) {
             int j = 0;
             for (; j <strs[i].length()&&j< str.length(); j++) {
                 if(str.charAt(j)!=strs[i].charAt(j)){
