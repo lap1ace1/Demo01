@@ -2,12 +2,12 @@ package leeetcode;
 
 public class leetcode14 {
     public static void main(String[] args) {
-        String[] a = {"abcd","abv","abssv"};
+        String[] a = {"dfasda","dasdasd","dsada"};
         System.out.println(ggqz(a));
 
     }
     public static String ggqz(String[] strs){
-        if(strs.length==0){
+        if(strs.length==0||strs[0].length()==0){
             return "";
         }
         String str = strs[0];
@@ -19,9 +19,6 @@ public class leetcode14 {
                 }
                 }
             str = str.substring(0,j);
-            if(str.equals("")){
-                return str;
-            }
                 }
         return str;
         }

@@ -10,7 +10,7 @@ public class test09 {
         if (x<0){
             return false;
         }
-        String xstr = x + "";
+        String xstr = x+ "";
         int i = xstr.length()/2;
         for (int j = 0; j < i; j++) {
             char b1 = xstr.charAt(j);

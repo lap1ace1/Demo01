@@ -3,11 +3,14 @@ package leeetcode;
 
 public class test13_2 {
     public static void main(String[] args) {
-        String s = "III";
-        System.out.println(abnc(s));
+        test13_2 A = new test13_2();
+        System.out.println(A.abnc("I"));
+
+        //String s = "III";
+        //System.out.println(abnc(s));
     }
 
-    public static int abnc(String s) {
+    public  int abnc(String s) {
         int jieguo = 0;
         for (int i = 0; i <s.length() ; i++) {
             int v2 = dd(s.charAt(i));
@@ -19,7 +22,7 @@ public class test13_2 {
         }
 return jieguo;
     }
-    public static int dd(char a){
+    public  int dd(char a){
         switch (a){
             case 'I': return  1;
             case 'V': return  5;
