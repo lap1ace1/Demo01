@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class LeetCode27 {
     public static void main(String[] args) {
-        int[] a ={1,2,3,3,4,5};
+        int[] a ={1,2,3,4,5};
         int val = 3;
         System.out.println(quchu(a,val));
 
