@@ -8,7 +8,7 @@ public class leetcode69 {
     }
     public static int genhao(int x){
         int l=0,r=x,ans=-1 ;
-        while (l<=r){
+        while (l<=r ){
             int mid = l + (r - l) / 2;
             if ((long)mid*mid<=x){
                 ans = mid;

@@ -12,7 +12,7 @@ public class leetcode1342 {
             if (num%2==0){
                  num=num/2;
                  res++;
-            }if (num%2!=0){
+            }if (num%2!=0 ){
                 num=num-1;
                 res++;}
 
