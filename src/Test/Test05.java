@@ -19,7 +19,7 @@ public class Test05 {
         String c = str.replace("test", "easy test");
         System.out.println(c);
 
-        String d = str.toUpperCase();
+         String d = str.toUpperCase();
          System.out.println(d);
 
 
