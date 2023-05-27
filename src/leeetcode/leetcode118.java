@@ -15,9 +15,9 @@ public class leetcode118 {
 
     public static  List<List<Integer>> yhsj(int numb){
         List<List<Integer>> res = new ArrayList<List<Integer>>();
-        for (int i = 0; i < numb; i++) {
+        for (int i = 0; i < numb; ++i) {
             List<Integer> row = new ArrayList<Integer>();
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j <= i; ++j) {
                 if (j==0||j==i){
                     row.add(1);
                 }else {

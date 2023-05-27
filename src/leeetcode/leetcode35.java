@@ -3,7 +3,7 @@ package leeetcode;
 public class leetcode35 {
     public static void main(String[] args) {
         int[] a = {1,2,3,4,5,6,7};
-        int target = 8;
+        int target = 3;
         System.out.println(cahru(a,target));
 
     }
