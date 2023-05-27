@@ -20,7 +20,7 @@ public class Test05 {
         System.out.println(c);
 
         String d = str.toUpperCase();
-        System.out.println(d);
+         System.out.println(d);
 
 
 
