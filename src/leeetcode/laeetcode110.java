@@ -6,7 +6,7 @@ public class laeetcode110 {
         System.out.println(bl(treeNode));
 
     }
-    public static boolean bl(TreeNode root){
+     public static boolean bl(TreeNode root){
         if (root==null){
             return true;
         }else {
