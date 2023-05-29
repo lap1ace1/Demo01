@@ -2,7 +2,7 @@ package leeetcode;
 
 public class leetcode125 {
     public static void main(String[] args) {
-        String a = "sjdlayh";
+        String a = "sjs";
         System.out.println(hwc(a));
 
     }
