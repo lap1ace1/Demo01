@@ -28,7 +28,7 @@ class Clerk{
         }
         System.out.println(Thread.currentThread().getName()+"消费了第"+productNum+"个产品");
         productNum--;
-        notify();
+        notifyAll();
 
     }
 }
@@ -75,7 +75,7 @@ public class ProducerConsumerTest {
         Clerk c1 = new Clerk();
         Producer p1 = new Producer(c1);
         Consumer c2 = new Consumer(c1);
-        Thread t1 = new Thread(p1,"生产者");
+        Thread t1 = new Thread(p1,"生产者1");
         Thread t2 = new Thread(c2,"消费者");
         Thread t3 = new Thread(p1,"生产者2");
         t1.start();
